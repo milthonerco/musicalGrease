@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Navbar Responsiva</title>
+    <style></style>
+  </head>
+  <body>
+    <header class="container">
+      <div class="containerNav">
+        <img
+          class="logoNav"
+          src="https://cdn.glitch.global/de4d63a3-7396-4f2b-b77d-d13603f4e36c/logoPersonitasCCA.svg?v=1715642840099"
+          alt=""
+        />
+        <nav class="navbar-left">
+          <a
+            href="#musical"
+            onclick="showSection('musical','https://cdn.glitch.global/de4d63a3-7396-4f2b-b77d-d13603f4e36c/fondoOne.svg?v=1715787312393')"
+            >MUSICAL</a
+          >
+          <a
+            href="#drama"
+            onclick="showSection('drama','https://cdn.glitch.me/de4d63a3-7396-4f2b-b77d-d13603f4e36c/fondoMusical.svg?v=1715786953947')"
+            >DRAMA</a
+          >
+          <!-- Agrega eventos onclick para mostrar las secciones de los personajes -->
+          <a href="#servicios" onclick="showSection('container-personajes-one')"
+            >DANZA</a
+          >
+          <a href="#contacto" onclick="showSection('container-personajes-two')"
+            >PINTURA</a
+          >
+          <a href="#coreografia">COREOGRAFÍA</a>
+        </nav>
+      </div>
+    </header>
+    <section class="musical">
+      <div class="container-one">
+        <div class="content-container-one">
+          <h1>Sinopsís</h1>
+          <p>
+            En la década de 1950, en Rydell High School, la trama sigue a Danny
+            Zuko, el líder de los T-Birds, y Sandy Olsson, una nueva estudiante.
+            Después de un romance de verano, se reencuentran inesperadamente en
+            la escuela, pero sus diferentes estatus sociales hacen que su
+            relación sea complicada. Danny intenta mantener su imagen de chico
+            duro mientras Sandy lucha por encajar en el grupo de las Pink
+            Ladies. Con bailes, música y un montón de drama adolescente, ambos
+            intentan descubrir si su amor puede superar las diferencias sociales
+            y los desafíos de la vida escolar. Con canciones inolvidables como
+            "Summer Nights" y "You're the One That I Want", "Grease" es un viaje
+            nostálgico a la época de los peinados altos y los autos de época,
+            lleno de romance, amistad y diversión.
+          </p>
+        </div>
+      </div>
+      <div class="container-two">
+        <div class="content-container-two">
+          <h1>Estimados padres de familia</h1>
+          <p>
+            Las artes ofrece a nuestros niños un medio divertido y fácil para
+            explorar y comunicar sus sentimientos, sus talentos y desarrollar
+            habilidades. Sus aplausos, lindas palabras y entusiasmo son lo que
+            hace retoñar todas estas virtudes del arte en la vida de sus hijos,
+            como educadores, nos complace proporcionar estas oportunidades,
+            asegurando que nuestros niños no solo crezcan en conocimiento, sino
+            también en fortaleza intelectual, emocional y social. CON AFECTO,<br /><br />
+            MARTHA CRUZ FUNDADORA CCA & P
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="drama">
+      <div class="container-personajes-one"></div>
+      <div class="container-personajes-two"></div>
+      <div class="container-personajes-three"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
